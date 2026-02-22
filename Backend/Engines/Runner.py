@@ -1,6 +1,22 @@
 import time
 from Backend.Engines.Registry import ALGORITHMS
 
+def compare_algorithms(name1, name2, value) :
+    if name1 not in ALGORITHMS or name2  not in ALGORITHMS :
+        raise ValueError( "One Of The Algorithme not found")
+    
+    resultat_1=run_algorithm(name1,value)
+    resultat_2=run_algorithm(name2,value)
+
+    return {
+        "input": value,
+        "comparison": {
+        name1: resultat_1,
+        name2: resultat_2 
+            }
+            }
+
+
 def run_algorithm(name, value):
 
     if name not in ALGORITHMS:
