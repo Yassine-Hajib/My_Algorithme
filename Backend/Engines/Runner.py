@@ -8,11 +8,20 @@ def compare_algorithms(name1, name2, value) :
     resultat_1=run_algorithm(name1,value)
     resultat_2=run_algorithm(name2,value)
 
+    time1=resultat_1["exucution_time"]
+    time2=resultat_2["exuctution_time"]
+
+    if time1 < time2 :
+      winner=name1
+    elif time1==time2 :
+      winner = "Tie"
+
+
     return {
         "input": value,
         "comparison": {
-        name1: resultat_1,
-        name2: resultat_2 
+        name1 : resultat_1 ,
+        name2 : resultat_2 
             }
             }
 

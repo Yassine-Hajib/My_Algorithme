@@ -1,2 +1,3 @@
 # My_Algorithm
 Smart Task Execution &amp; Protection Platform is a secure backend system built with Python that allows authenticated users to submit, schedule, and execute computational tasks through a protected API.  The platform combines algorithm execution, authentication, rate limiting, background processing ...
+
