@@ -14,6 +14,7 @@ def main():
     print("\n_______________\n")
     print(run_algorithm("Bubble_sort_Recursive",[5,8,3,1]))
     print("\n_______________\n")
+    print(run_algorithm("Binary_Search_Iterative", {"arr": [3,1,4,9,0,2], "target": 0}))
     
 
 
