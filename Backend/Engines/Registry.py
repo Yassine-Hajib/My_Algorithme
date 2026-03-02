@@ -3,7 +3,8 @@ from Backend.Algortihmes.Factoriel_recursive import factorial_with_metrics
 from Backend.Algortihmes.Factorial_iterative import iterativeFactoriel
 from Backend.Algortihmes.Fibonnaci_Recursive import Fibonnaci_Recursive
 from Backend.Algortihmes.Fibonnaci_Iterative import Fibonnaci_Iterative
-from Backend.Algortihmes.Bubble_Sort import bubble_sort
+from Backend.Algortihmes.Bubble_Sort_Iterative import bubble_sort_Iterative
+from Backend.Algortihmes.Bubble_Sort_Recursive import bubble_sort_Recursive
 
 ALGORITHMS = {
     "sum": summ,
@@ -11,5 +12,6 @@ ALGORITHMS = {
     "factorial_iterative": iterativeFactoriel,
     "Fibonnaci_Recursive":Fibonnaci_Recursive,
     "Fibonnaci_Iterative" :Fibonnaci_Iterative,
-    "Bubble_sort":bubble_sort
+    "Bubble_sort_Iterative":bubble_sort_Iterative,
+    "Bubble_sort_Recursive":bubble_sort_Recursive
 }

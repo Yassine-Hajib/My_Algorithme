@@ -16,8 +16,8 @@ def compare_algorithms(name1, name2, value):
     
     if time1 < time2:
         winner = name1
-    elif time2 < time1:
-        winner = name2
+    elif time2 == time1:
+        winner = "Tie"
     else:
       winner = name2
 

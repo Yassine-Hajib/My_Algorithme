@@ -10,8 +10,13 @@ def main():
     print("\n_______________\n")
     print(run_algorithm("Fibonnaci_Iterative",5))
     print("\n_______________\n")
-    print(run_algorithm("Bubble_sort",[5,8,3,1]))
+    print(run_algorithm("Bubble_sort_Iterative",[5,8,3,1]))
+    print("\n_______________\n")
+    print(run_algorithm("Bubble_sort_Recursive",[5,8,3,1]))
+    print("\n_______________\n")
+    
+
 
 if __name__ == "__main__":
     main()
-# It prevents code from executing automatically when imported 
+# It prevents code from executing automatically when imported  
