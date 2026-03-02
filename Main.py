@@ -9,6 +9,8 @@ def main():
     print(run_algorithm("Fibonnaci_Recursive",5))
     print("\n_______________\n")
     print(run_algorithm("Fibonnaci_Iterative",5))
+    print("\n_______________\n")
+    print(run_algorithm("Bubble_sort",[5,8,3,1]))
 
 if __name__ == "__main__":
     main()
